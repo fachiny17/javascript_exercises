@@ -1,5 +1,5 @@
 let num1 = 16
-let num2 = 9
+let num2 = 7
 document.getElementById("num1-el").textContent = num1
 document.getElementById("num2-el").textContent = num2
 
