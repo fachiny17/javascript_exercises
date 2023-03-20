@@ -1,3 +1,4 @@
+//calculator challenge
 let num1 = 16
 let num2 = 7
 document.getElementById("num1-el").textContent = num1
