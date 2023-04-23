@@ -1,10 +1,19 @@
-let username = "boss"
-let message = "You have threee more exercises"
+let player1Time = 102
+let player2Time = 107
 
-console.log(message+", "+username+"!")
+function getFastestRaceTime() {
+    if (player1Time < player2Time) {
+        return player1Time
+    } else if (player1Time > player2Time) {
+        return player2Time
+    } else {
+        return player1Time
+    }
+}
 
-let name = "Chisom"
-let greeting = "Hi, my name is "
-let myGreeting = greeting+name
+function getTotalRaceTime() {
+    return player1Time + player2Time 
+}
 
-console.log(myGreeting)
+let totalTime = getTotalRaceTime()
+console.log(totalTime)
