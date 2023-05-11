@@ -36,5 +36,4 @@ inputBtn.addEventListener("click", function() {
     inputEl.value = ""
     localStorage.setItem("myLeads", JSON.stringify(myLeads))
     render(myLeads)
-}
-)
+})
